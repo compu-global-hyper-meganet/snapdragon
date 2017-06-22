@@ -5,8 +5,6 @@ var path = require('path');
 
 app.use('/static', express.static(path.join(__dirname + '/../client/ui/dist/static/')));
 
-console.log(path.join(__dirname + '/../client/ui/dist/static/'));
-
 app.get('/', function(req, res){
   res.sendFile('index.html', {'root': '../client/ui/dist'});
 });
