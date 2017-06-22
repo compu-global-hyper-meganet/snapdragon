@@ -3,7 +3,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var path = require('path');
 
-app.use('static', express.static(path.join(__dirname + '/../client/ui/dist/static/')));
+app.use('/static', express.static(path.join(__dirname + '/../client/ui/dist/static/')));
 
 console.log(path.join(__dirname + '/../client/ui/dist/static/'));
 
