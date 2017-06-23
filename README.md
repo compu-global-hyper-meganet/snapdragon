@@ -18,3 +18,7 @@ This will output into `client\ui\dist`
 2. `npm start`
 
 This will serve the build client from `client\ui\dist` so make sure you build the client first
+
+## When debugging - make sure you have the Vue Chrome devtools plugin
+
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
